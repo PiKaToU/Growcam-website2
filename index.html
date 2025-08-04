@@ -10,20 +10,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-<meta name="description" content="description">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <meta name="theme-color" content="color hex code">
-    <meta name="author" content="author">
 
-    <meta property="og:title" content="title">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="description">
-    <meta property="og:url" content="index.html">
-    <meta property="og:site_name" content="site_name">
-      <meta property="og:image"  itemprop="image" content="image link">
-
-    <link rel="icon" type="image/png" href="image link">
-    <link rel="canonical" href="index.html">
   <style>
     /* Reset */
     * {
@@ -49,7 +36,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('https://i.ibb.co/4pDNDk1/snow.gif');
+      background-image: url('https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-bb6c-622f-9de5-9dc39c93a278/raw?se=2025-08-04T06%3A53%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=2c8b0aad-d47e-53cc-9db1-c980d89e037a&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-03T22%3A02%3A15Z&ske=2025-08-04T22%3A02%3A15Z&sks=b&skv=2024-08-04&sig=V3qTqo1ooy/TKRZyRITZaXxDJF6YXuQbXcYvcaTVL5E%3D');
       background-size: cover;
       opacity: 0.15;
       z-index: 0;
@@ -234,7 +221,7 @@
     #music-toggle button {
       background: rgba(0, 255, 255, 0.1);
       border: 2px solid #0ff;
-      color: #0ff;
+      color: 2px solid #0ff;
       padding: 8px 14px;
       border-radius: 8px;
       font-family: 'Orbitron', sans-serif;
@@ -299,17 +286,18 @@
     <div class="tab-buttons">
       <button class="tab-btn active" data-tab="android">Android</button>
       <button class="tab-btn" data-tab="ios">iOS</button>
-      <button class="tab-btn" data-tab="windows">Windows</button>
+      <button class="tab-btn" data-tab="Windows">Windows</button>
+      <button class="tab-btn" data-tab="MacOS">MacOS</button>
     </div>
 
     <div class="tab-content active" id="android">
       <ol>
         <li>First, download Powertunnel APP from <a href="https://github.com/krlvm/PowerTunnel-Android/releases/download/v2.6.3/PowerTunnel.apk" target="_blank">here</a></li>
-        <li>Then click on the "Powertunnel" button.</li>
+        <li>Then click on the "Copy Powertunnel" button.</li>
         <li>It will copy the powertunnel host link.</li>
         <li>Open the powertunnel app, click the three-line icon, and click the host settings icon.</li>
         <li>Paste the copied powertunnel host URL. Change the host update period from 12 hours to on start.</li>
-        <li>Done, then open "Growtopia" and Connect to our gtps!</li>
+        <li>Done, then open "Growtopia" and Connect!</li>
       </ol>
     </div>
 
@@ -319,25 +307,13 @@
         <li>Press "OK",</li>
         <li>Click on "Default.conf".</li>
         <li>Click on "IMPORT" part - Download Profile from URL.</li>
+        <li>Then Click On "Copy iOS Host(Surge 5)" Button</li>
         <li>Put url from your copy when click IOS host button above and click "OK" and "Done"</li>
         <li>Press "SETUP" and then agree to policy by clicking "OK" and "Allow" for VPN Configuration!.</li>
         <li>Done, then open "Growtopia" and Connect!</li>
       </ol>
     </div>
-
-    <div class="tab-content" id="windows">
-      <ol>
-        <li>Press ⊞ Win+R (Windows Key + R) to open up the "Run" window.</li>
-        <li>Type in C:\Windows\System32\drivers\etc in the textbox.</li>
-        <li>Find file named hosts.</li>
-        <li>Right-click on "hosts" file and edit it with Notepad/text editor.</li>
-        <li>Add ip above.</li>
-        <li>Then Save and logon to your growtopia</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="tab-content" id="MacOS">
+    <div class="tab-content" id="MacOS">
       <ol>
         <li>Open Finder and, in Finder’s menu bar, select Go > Go to Folder.</li>
         <li>In the box that appears, type the following location: /private/etc/hosts and press Return.</li>
@@ -348,7 +324,18 @@
         <li>Done! Now, open Growtopia and connect!</li>
       </ol>
     </div>
-  </div>
+
+    <div class="tab-content" id="Windows">
+      <ol>
+        <li>Press ⊞ Win+R (Windows Key + R) to open up the "Run" window.</li>
+        <li>Type in C:\Windows\System32\drivers\etc in the textbox.</li>
+        <li>Find file named hosts.</li>
+        <li>Right-click on "hosts" file and edit it with Notepad/text editor.</li>
+        <li>Click On "Copy Window Host" Button</li>
+        <li>Add ip above.</li>
+        <li>Then Save and logon to your growtopia</li>
+      </ol>
+      </div>
 
   <!-- Music Toggle -->
   <div id="music-toggle">
